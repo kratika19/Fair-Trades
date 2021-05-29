@@ -61,6 +61,7 @@ display: flex;
   list-style: none;
   text-align: center;
   margin-right: -22px;
+  
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -70,6 +71,7 @@ display: flex;
 
 export const NavItem = styled.li`
     height:80px;
+    
 `
 
 export const NavLinks = styled(LinkS)`
@@ -81,7 +83,13 @@ export const NavLinks = styled(LinkS)`
     height: 100%;
     cursor: pointer;
   
-    &.active{
+    
+  &:hover{
+    color : #01bf71;
+    transition: 0.2s ease-in-out;
+  }
+
+    &::active{
       border-bottom: 3px solid #01bf71;
     }
 `
@@ -104,7 +112,7 @@ color: #010606;
 font-size: 16px;
 outline: none;
 border: none;
-cursor: pointer;
+cursor:pointer;
 transition: all 0.2s ease-in-out;
 text-decoration: none;
 
