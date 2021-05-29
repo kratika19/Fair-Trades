@@ -8,7 +8,7 @@ const Navbar = ({toggle}) => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>
-                        Fair Trade
+                        fair trade
                 </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
