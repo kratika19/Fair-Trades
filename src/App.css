@@ -7,6 +7,28 @@
   font-family: 'Overpass', sans-serif;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #02dd82;
+  border-radius: 10px;
+  width: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #017e4a;
+}
+
 /* *{
   
 } */
