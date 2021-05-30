@@ -14,19 +14,20 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 5px #002415;
   border-radius: 0;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #02dd82;
+  background: #017e4a;
   border-radius: 10px;
   width: 1px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #017e4a;
+  background-color: #00633a;
+  cursor: pointer;
 }
 
 /* *{
