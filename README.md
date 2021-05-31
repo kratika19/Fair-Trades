@@ -1,6 +1,6 @@
 # fair trade 
 
-This project is a ReactJS based project. I have tried to made a proffesional looking website. This website has different pages accessible on scrolling. It is fully responsible.
+This project is a ReactJS based project. I have tried to made a professional looking website. This website has different pages accessible on scrolling. It is fully responsible.
 
 
 ## MAIN SCREEN
@@ -36,5 +36,5 @@ This project is a ReactJS based project. I have tried to made a proffesional loo
 
 
 Runs the app on your server at: <br>
-Open []() to view it in the browser.
+Open [https://fair-trades.netlify.app/](https://fair-trades.netlify.app/) to view it in the browser.
 
